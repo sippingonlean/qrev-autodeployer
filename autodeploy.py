@@ -18,7 +18,7 @@ import builtins
 from pathlib import Path
 ssl._create_default_https_context = ssl._create_unverified_context
 
-BBRepo = "https://github.com/unknownluau/bubbablox-src.git"
+BBRepo = "https://github.com/sippingonlean/bubbablox-redefined.git"
 PostgresPath = r"C:\Program Files\PostgreSQL\13\bin"
 RBXRegPath = r"SOFTWARE\ROBLOX Corporation\Roblox"
 
@@ -712,7 +712,7 @@ def main():
     
     CleanAppData()
     os.system('cls' if os.name == 'nt' else 'clear')
-    print("Bubba deployed! Please do these things after install")
+    print("BubbaBlox is deployed! Please do these things after install")
     print("1. Go back to the Discord Developer Portal, go into your app and in the OAuth2 section add these redirect URL's:")
     print(f"\nhttps://{domain}/discordcb, https://{domain}/forgotcb, https://{domain}/logincb\n")
     print("2. Run the site with the runall.bat file in the bubbablox-v2 directory")
