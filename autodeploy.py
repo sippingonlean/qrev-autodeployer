@@ -18,7 +18,7 @@ import builtins
 from pathlib import Path
 ssl._create_default_https_context = ssl._create_unverified_context
 
-BBRepo = "https://github.com/harryzawg/bubbablox-v2.git"
+BBRepo = "https://github.com/unknownluau/bubbablox-src.git"
 PostgresPath = r"C:\Program Files\PostgreSQL\13\bin"
 RBXRegPath = r"SOFTWARE\ROBLOX Corporation\Roblox"
 
@@ -716,7 +716,7 @@ def main():
     print("1. Go back to the Discord Developer Portal, go into your app and in the OAuth2 section add these redirect URL's:")
     print(f"\nhttps://{domain}/discordcb, https://{domain}/forgotcb, https://{domain}/logincb\n")
     print("2. Run the site with the runall.bat file in the bubbablox-v2 directory")
-    print("3. Create your admin account, it can be any name (example: Roblox)")
+    print("3. Create your admin account, it can be any name (example: ROBLOX)")
     print("4. Go to /admin and create a player with the ID 2500, and the name as UGC.")
     print("Then create the account with the ID 12, and the name as BadDecisions. Nullify the password for UGC and BadDecisions.")
     print("Finally, download and install DirectX onto your host so 2020 can work.")
